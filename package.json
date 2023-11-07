@@ -8,6 +8,9 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
+  "dependencies": {
+    "vue-variants": "workspace:*"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.0",
     "eslint": "^8.52.0",
