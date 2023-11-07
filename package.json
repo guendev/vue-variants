@@ -1,0 +1,11 @@
+{
+  "name": "vue-variants",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.6.10",
+  "scripts": {},
+  "devDependencies": {
+    "@antfu/eslint-config": "^1.1.0",
+    "eslint": "^8.52.0"
+  }
+}
