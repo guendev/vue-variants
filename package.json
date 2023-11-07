@@ -1,11 +1,16 @@
 {
-  "name": "vue-variants",
+  "name": "@vue-variants/monorepo",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@8.6.10",
-  "scripts": {},
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.0",
-    "eslint": "^8.52.0"
+    "eslint": "^8.52.0",
+    "vitepress": "1.0.0-rc.25"
   }
 }
